@@ -1,0 +1,58 @@
+
+<html>
+
+    <head>
+        <title>meu site</title>
+        <meta charset="utf-8">
+    </head>
+
+    <body>
+        
+        <h1>tags principais</h1>
+        para começar um codigo sempre começar com o !doctype html<br>
+        depois abrir e fechar a tag html para escrever tudo q contem no site dentro<br>
+        após isso utilizar a tag head para poder dar nome ao site e tambem dizer quais coisas como charset vai utilizar<br>
+        depois do head a tag body para escrever tudo que ira conter no corpo do site<br>
+
+        <hr>
+
+        <h1>tags no body</h1>
+        tag h sendo ela h1 ate h6 serve pra indicar que aquele texo será um cabeçalho<br>
+        tag p serve pra dar um certo espaçamento enre dois textos dentro de um body
+        <p>este é um exemplo do espaço, tanto pra cima quanto pra baixo</p>
+        tag hr serve pra fazer uma linha<br>
+        tag br serve para quebrar a linha de escrita<br>
+        tanto a tag <b>b</b> ou <strong>strong</strong> serve para deicar o texto em negrito<br>
+        tag i serve pra deixar o texto em <em>italico</em> mas é recomendado que use a tag em que significa enfase em ingles<br>
+        tag u serve pra deixar o texto em <u>underline</u><br>
+        tag strike serve pra deixar o texto <strike>traçado</strike>
+
+        <hr>
+
+        <h1>listas ordenas e n ordenadas</h1>
+        para uma lista nao ordenada se utiliza a tag ul<br>
+        e para uma lista ordenada a tag ol<br>
+        na ordenada os itens sao marcados por numeros, na nao ordenada por marcadores padroes<br>
+        para cada item se utiliza a tag li<br>
+        dentro da tag de ul pode ser mudada a forma das marcações com o atributo type="" sendo a padrao disc<br>
+        nas ordenadas o atributo type vem como padrao os numeros de 1 ao ... 
+        <h3>nao ordenadas</h3>
+        <ul>
+            <li>meus ovo</li>
+        </ul>
+        <ul type="circle">
+            <li>minhas bola</li>
+        </ul>
+        <ul type="square">
+            <li>meu sacao</li>
+        </ul>
+
+        <h3>ordenadas</h3>
+        <ol type="I">
+            <li>item 1</li>
+            <li>item 2</li>
+        </ol>
+
+    </body>
+
+</html>
